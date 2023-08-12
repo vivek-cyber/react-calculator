@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+.App{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+#calu
+{
+  border: 1px solid black;
+  width: fit-content;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 10px -10px 20px rgb(144, 144, 214), -10px 10px 20px rgb(243, 145, 161)
+}
+#inputs
+{
+  display: flex;
+  flex-direction: column;
+}
+#inputs input{
+  
+  align-self: center;
+  margin: 10px 0px;
+}
+input::placeholder
+{
+  color: #2a2a2a;;
+}
+
+#btns
+{
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  background-color: #2a2a2a;
+  color: white;
+  border: none;
+  padding: 10px;
+}
